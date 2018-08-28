@@ -2,7 +2,7 @@ version: "3.3"
 services:
     gateway:
         ports:
-            - 8080:8080
+            - 80:8080
         image: openfaas/gateway:0.8.11
         networks:
             - functions
